@@ -9,19 +9,36 @@ console.log(specialCharacters);
 console.log(upperCase);
 console.log(lowerCase);
 
+
 function generatePassword(){
   //prompts with password length from user
   var minLength =Number( window.prompt('Please, select the password criteria. \nWhat is the minimum length of the password?' ));
-  console.log(minLength);
-
+  console.log(minLength); 
+  
+   while (minLength<8){
+     window.alert("The password length can't be less than 8 characters. Please try again!")
+     var minLength =Number( window.prompt('Please, select the password criteria. \nWhat is the minimum length of the password?' ));
+      console.log(minLength); 
+      
+    } 
+ 
+  
   var maxLength = Number( window.prompt (' Now , what about maximum length?') );
   console.log(maxLength);
+  while (maxLength>128) {
+    window.alert("The password length can not exceed 128 characters. Try again!");
+    var maxLength = Number( window.prompt (' Now , what about maximum length?') );
+  console.log(maxLength);
+  }
+
+  
 
   // calculating password length
   var randomPlus = Math.round(Math.random()* (maxLength-minLength));
   console.log(randomPlus);
   var passwordLength = randomPlus + minLength;
   console.log('the password length is ', passwordLength);
+
 
   //promts about presents of upper, lower case letters and special characters
 
