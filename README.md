@@ -23,18 +23,18 @@ https://elenafwork.github.io/03-Password/
 
 The webpage looks like this: 
 <p align="left">
-  <img src="assets/image/Screenshot-webpage.png" width="700" title="hover text">
+  <img src="Assets/image/Screenshot-webpage.png" width="700" title="webpage">
 
 
 After clicking the button "Generate password" you will see a series of prompts for password criteria: 
 
 <p align="left">
-  <img src="assets/image/Screenshot-prompt.png" width="700" title="hover text">
+  <img src="Assets/image/Screenshot-prompt.png" width="700" title="webpage">
 
 The final result - password - is written in  above the button and can be copied and paste.
 
 <p align="left">
-  <img src="assets/image/Screenshot-final.png" width="700" title="hover text">
+  <img src="Assets/image/Screenshot-final.png" width="700" title="webpage">
 
 
 
